@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cha_Hae_in_x_bot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://envs.sh/HL2.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://graph.org/file/4ce3606b5e8d122d12a71-2dd4ea284b077812c7.jpg")).split() #Required
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
